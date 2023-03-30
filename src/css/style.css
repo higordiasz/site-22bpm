@@ -1,0 +1,40 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #252525 !important;
+}
+
+.header {
+  background-color: #202428;
+  border-bottom: solid 2px red;
+}
+
+.logo {
+  height: 75px;
+  width: 110px;
+  padding: 5px;
+}
+
+.nome {
+  color: white !important;
+  align-items: start;
+}
+
+.text {
+  padding: 0px;
+  margin: 0 auto;
+  margin-bottom: 2px;
+  margin-top: 4px;
+}
+
+.sub-text {
+  padding: 0px;
+  margin: 0 auto;
+}
+
+.logo_icon {
+  height: 30px;
+  width: 30px;
+  margin: 0;
+  padding: 5px;
+}
