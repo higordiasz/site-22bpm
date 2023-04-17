@@ -1,114 +1,230 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <title>22º BPMM VIRTUAL</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="src/css/style.css" />
-  <link rel="stylesheet" href="src/tools/fontawesome4/css/font-awesome.min.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+  <head>
+    <title>22º BPMM VIRTUAL</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/table.css" />
+    <link rel="stylesheet" href="src/css/footer.css" />
+    <link rel="stylesheet"
+      href="src/tools/fontawesome4/css/font-awesome.min.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="src/css/swiper-bundle.min.css" />
+    <script defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"></script>
   </head>
 
-<body>
-  <div class="container-fluid">
-    <div id="header" class="row">
-      <div class="container-fluid header">
-        <div class="row">
+  <body style="overflow-x: hidden;">
+    <div class="container-fluid" style="width: 100% !important; padding: 0px;
+      margin: 0px;">
+      <div id="header" class="row">
+        <div class="container-fluid header">
+          <div class="row">
             <div class="row">
               <div class="col-6 acesso">
                 <div class="row">
                   <div class="header-logo">
                     <img src="src/img/logo.png" class="logo" />
                     <div class="sub-header">
-                      <h3 class="text" style="color: brown !important;">22º BPMM VIRTUAL</h3>
-                      <p class="sub-text" style="color: white !important;">Fazendo a diferença</p>
+                      <h3 class="text" style="color: brown !important;">22º
+                        BPM/M
+                        VIRTUAL</h3>
+                      <p class="sub-text" style="color: white !important;">FAZENDO
+                        A DIFERENÇA</p>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col-6 acesso_polcial" style="margin-top: 5px;">
                 <div class="d-flex flex-row-reverse">
-                  <a href="#"><img class="logo_icon" src="src/img/facebook.svg" /> </a>
-                  <a href="#"><img class="logo_icon" src="src/img/instagram.svg" /> </a>
-                  <a href="#"><img class="logo_icon" src="src/img/kwai.png" /> </a>
-                  <a href="#"><img class="logo_icon" src="src/img/tiktok.svg" /> </a>
-                  <a href="#"><img class="logo_icon" src="src/img/youtube.png" /> </a>
+                  <a href="#"><img class="logo_icon" src="src/img/facebook.svg"
+                      /> </a>
+                  <a href="#"><img class="logo_icon" src="src/img/instagram.svg"
+                      /> </a>
+                  <a href="#"><img class="logo_icon" src="src/img/kwai.png" />
+                  </a>
+                  <a href="#"><img class="logo_icon" src="src/img/tiktok.svg" />
+                  </a>
+                  <a href="#"><img class="logo_icon" src="src/img/youtube.png"
+                      /> </a>
                 </div>
                 <div class="d-flex flex-row-reverse">
                   <a href="#" style="text-decoration: none;">
-                  <h4 class="text" style="color: white !important;">Acesso Policial</h4>
+                    <h4 class="text" style="color: white !important;">ACESSO
+                      POLICIAL</h4>
                   </a>
                 </div>
               </div>
             </div>
-      </div>
-      </div>
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><i class="fa fa-home fa-2x"></i></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#concursos">Concursos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#avalicao">Avaliação</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#noticias">Notícias</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#quemsomos">Quem Somos</a>
-              </li>
-              <li class="nav-item acesso_polcial_invert" style="display: none;">
-                <a class="nav-link" href="#acesso">Acesso Policial</a>
-              </li>
-            </ul>
           </div>
         </div>
-      </nav>
-    </div>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class="fa fa-home fa-2x"></i></a>
+            <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#concursos">Concursos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#avalicao">Avaliação</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#noticias">Notícias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#quemsomos">Quem Somos</a>
+                </li>
+                <li class="nav-item acesso_polcial_invert" style="display:
+                  none;">
+                  <a class="nav-link" href="#acesso">Acesso Policial</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
 
-    <div class="container-fluid" style="margin-top:0px;">
-      <div class="row">
+      <div class="container-fluid" style="margin-top:0px; padding: 0px;">
+        <div class="row">
+          <div id="demo" class="carousel slide mh_200" data-bs-ride="carousel"
+            style="padding: 0px !important;">
 
-<div id="demo" class="carousel slide mh_200" data-bs-ride="carousel" style="padding: 0px !important;">
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner mh_200">
+              <div class="carousel-item active mh_200">
+                <img src="src/img/banner1.png" class="d-block w-100 mh_200">
+              </div>
+              <div class="carousel-item h_200">
+                <img src="src/img/banner2.png" class="d-block w-100 mh_200">
+              </div>
+            </div>
 
-  <!-- The slideshow/carousel -->
-  <div class="carousel-inner mh_200">
-    <div class="carousel-item active mh_200">
-      <img src="src/img/banner1.jpeg" class="d-block w-100 mh_200">
-    </div>
-    <div class="carousel-item h_200">
-      <img src="src/img/banner2.jpeg" class="d-block w-100 mh_200">
-    </div>
-    <div class="carousel-item h_200">
-      <img src="src/img/banner3.jpeg" class="d-block w-100 mh_200">
-    </div>
-  </div>
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button"
+              data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button"
+              data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div>
+        <div class="row" style="
+          padding: 5px; background-color:
+          #333333;">
+          <div id="cardcontainer" class="swiper">
+            <div class="slide-container">
+              <div class="card-wrapper swiper-wrapper">
+                <a href="https://www.terabyteshop.com.br/" target="_blank"
+                  rel="noopener noreferrer"
+                  class="card swiper-slide">
+                  <div class="image-box">
+                    <img src="src/img/terabyte.png" alt="" />
+                  </div>
+                </a>
+                <a href="https://www.terabyteshop.com.br/" target="_blank"
+                  rel="noopener noreferrer"
+                  class="card swiper-slide">
+                  <div class="image-box">
+                    <img src="src/img/terabyte.png" alt="" />
+                  </div>
+                </a>
+                <a href="https://www.terabyteshop.com.br/" target="_blank"
+                  rel="noopener noreferrer"
+                  class="card swiper-slide">
+                  <div class="image-box">
+                    <img src="src/img/terabyte.png" alt="" />
+                  </div>
+                </a>
+                <a href="https://www.terabyteshop.com.br/" target="_blank"
+                  rel="noopener noreferrer"
+                  class="card swiper-slide">
+                  <div class="image-box">
+                    <img src="src/img/terabyte.png" alt="" />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div class="row" style="padding-top: 30px !important;
+          padding: 5px;
+          padding-bottom: 30px;
+          flex-direction: row;
+          align-items: center; justify-content: center;">
+          <div class="col-lg-6">
+            <table>
+              <tr>
+                <th>Abril/23</th>
+                <th>Hora</th>
+                <th>Dia</th>
+                <th>Mês</th>
+                <th>Ano</th>
+              </tr>
+              <tr>
+                <td>Nº de Ligações ao 190</td>
+                <td>2.594</td>
+                <td>62.265</td>
+                <td>1.867.951</td>
+                <td>3.826.637</td>
+              </tr>
+              <tr>
+                <td>Pessoas Presas em Flagrante</td>
+                <td>11</td>
+                <td>252</td>
+                <td>7.566</td>
+                <td>14.597</td>
+              </tr>
+              <tr>
+                <td>Resgate</td>
+                <td>1</td>
+                <td>33</td>
+                <td>994</td>
+                <td>1.982</td>
+              </tr>
+              <tr>
+                <td>Veículos Apreendidos</td>
+                <td>5</td>
+                <td>123</td>
+                <td>3.687</td>
+                <td>7.247</td>
+              </tr>
+            </table>
+          </div>
+        </div>
 
-  <!-- Left and right controls/icons -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-</div>
+        <div class="footer row">
+          <div class="endereco row">
+            <i class="fa fa-map-marker"></i>
+            <p>Av. GTA V FiveM, 2200 - Roleplay, Sao Paulo - SP, 02288-100</p>
+          </div>
+          <div class="copyright row">
+            <p>© Copyright 2019-2023. Todos os direitos reservados.</p>
+          </div>
+        </div>
 
       </div>
     </div>
-  </div>
-</body>
+    <script src="src/js/swiper-bundle.min.js"></script>
+    <script src="src/js/script.js"></script>
+  </body>
 
 </html>

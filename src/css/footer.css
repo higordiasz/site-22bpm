@@ -1,0 +1,61 @@
+@media (min-device-width: 320px) and (max-device-width: 580px) and (-webkit-min-device-pixel-ratio: 2) {
+    .endereco i {
+        font-size: 12px !important;
+    }
+
+    .endereco p {
+        font-size: 12px !important;
+    }
+
+    .copyright p {
+        font-size: 10px !important;
+    }
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #333;
+    min-height: 50px;
+}
+
+.endereco {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.endereco i {
+    color: white;
+    font-size: 20px;
+    width: auto;
+}
+
+.endereco p {
+    color: white;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.copyright p {
+    color: white;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+}

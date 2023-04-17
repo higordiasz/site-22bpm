@@ -1,36 +1,39 @@
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
-    body{
-        font-size:15px;
-    }
+  body {
+    font-size: 15px;
+  }
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
-    body{
-        font-size:25px;
-    }
+  body {
+    font-size: 25px;
+  }
 }
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
-    body{
-        font-size:50px;
-    }
+  body {
+    font-size: 50px;
+  }
 }
 
 @media (max-width: 560px) {
   .acesso_polcial {
     display: none;
   }
+
   .acesso_polcial_invert {
     display: block !important;
   }
+
   .acesso {
     width: 100% !important;
   }
+
   h3 {
-        font-size: calc(1.1rem + .6vw) !important;
+    font-size: calc(1.1rem + .6vw) !important;
   }
 }
 
@@ -95,4 +98,113 @@ body {
   display: flex;
   flex-direction: column;
   padding: 5px;
+}
+
+.scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #efefef;
+}
+
+#cardcontainer {
+  width: 100%;
+  padding: 40px 0;
+}
+
+.slide-container {
+  margin: 0 30px;
+  overflow: hidden;
+}
+
+.card {
+  background: #222;
+  background-color: #222 !important;
+  border-radius: 8px;
+}
+
+.card .image-box {
+  height: 200px;
+}
+
+.card .image-box img {
+  height: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.card .profile-details {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  padding: 15px;
+}
+
+.card .profile-details img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.profile-details .name {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.profile-details .job {
+  font-size: 12px;
+  font-weight: 500;
+  color: #4d4d4d;
+}
+
+.swiper-navBtn {
+  color: #000;
+  height: 40px;
+  width: 40px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 18px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-navBtn {
+    display: none;
+  }
+}
+
+.image-box {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
